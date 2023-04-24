@@ -2,6 +2,7 @@ const express = require("express");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 const mongoSanitize = require("express-mongo-sanitize");
+const cookieParser = require("cookie-parser");
 const compression = require("compression");
 
 const app = express();
@@ -21,4 +22,7 @@ app.use(cookieParser());
 app.use(mongoSanitize());
 app.use(compression());
 
-module.exports(app);
+// app.use("/api/v1/users", userRouter);
+// app.use("/api/v1/tests", testRouter);
+
+module.exports = app;
