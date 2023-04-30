@@ -5,21 +5,12 @@ const testSchema = new mongoose.Schema({
     type: String,
     required: [true, "A test should have a name"],
   },
-  questions: [
-    {
-      type: mongoose.Schema.ObjectId,
-      ref: "Question",
-    },
-  ],
 });
 
-testSchema.pre(/^find/, function (next) {
-  this.populate({
-    path: "questions",
-    select: "-__v",
-  });
-
-  next();
+testSchema.virtual("questions", {
+  ref: "Question",
+  foreignField: "test",
+  localField: "_id",
 });
 
 const Test = mongoose.model("Test", testSchema);
