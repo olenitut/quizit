@@ -1,9 +1,10 @@
-const mongoose = reqire("mongoose");
+const mongoose = require("mongoose");
 
 const testSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "A test should have a name"],
+    unique: [true, "A test should be unique"],
   },
 });
 

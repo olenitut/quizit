@@ -1,0 +1,867 @@
+[
+  {
+    "question": "What is Node.js?",
+    "answers": [
+      "A framework for building web applications",
+      "A runtime environment for executing JavaScript code outside of a browser",
+      "A package manager for JavaScript libraries",
+      "A JavaScript testing framework"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is the main advantage of using Node.js?",
+    "answers": [
+      "It is faster than other JavaScript runtimes",
+      "It is more secure than other JavaScript runtimes",
+      "It is easier to use than other JavaScript runtimes",
+      "It allows for server-side JavaScript development"
+    ],
+    "correctAnswer": 3,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "Which of the following is NOT a built-in module in Node.js?",
+    "answers": ["http", "fs", "path", "jquery"],
+    "correctAnswer": 3,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is the package manager for Node.js called?",
+    "answers": ["npm", "pip", "gem", "apt-get"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is the purpose of the 'require' function in Node.js?",
+    "answers": [
+      "To import modules",
+      "To define variables",
+      "To create functions",
+      "To execute code"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "Which module is used for handling file system operations in Node.js?",
+    "answers": ["http", "fs", "path", "os"],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is the difference between 'setImmediate' and 'setTimeout' functions in Node.js?",
+    "answers": [
+      "'setImmediate' is used for synchronous code, while 'setTimeout' is used for asynchronous code",
+      "'setTimeout' is used for synchronous code, while 'setImmediate' is used for asynchronous code",
+      "There is no difference between the two functions",
+      "'setImmediate' executes the code immediately, while 'setTimeout' executes the code after a specified time period"
+    ],
+    "correctAnswer": 3,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is a 'stream' in Node.js?",
+    "answers": [
+      "A way of handling data in chunks",
+      "A way of handling errors in code",
+      "A way of handling callbacks",
+      "A way of handling events"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "What is the purpose of the 'process' object in Node.js?",
+    "answers": [
+      "To provide information about the current Node.js process",
+      "To create child processes",
+      "To manage file system operations",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "question": "Which Node.js module is used for creating web servers?",
+    "answers": ["http", "fs", "path", "os"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b271711e"
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is JavaScript?",
+    "answers": [
+      "A markup language",
+      "A server-side programming language",
+      "A client-side programming language",
+      "A database management language"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What are variables used for in JavaScript?",
+    "answers": [
+      "To store or hold values",
+      "To create functions",
+      "To display text on a web page",
+      "To create loops"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is the DOM?",
+    "answers": [
+      "The Document Object Model, which represents the page content in the browser",
+      "A programming language used for database management",
+      "A programming language used for server-side development",
+      "A markup language used for creating web pages"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is an array in JavaScript?",
+    "answers": [
+      "A way to store multiple values in a single variable",
+      "A function that performs a specific task",
+      "A loop that repeats a block of code",
+      "A way to create objects"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is the difference between '==' and '===' in JavaScript?",
+    "answers": [
+      "'==' compares values for equality, while '===' compares values and types for equality",
+      "'===' compares values for equality, while '==' compares values and types for equality",
+      "'==' and '===' are interchangeable",
+      "'==' performs a mathematical comparison, while '===' performs a logical comparison"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is a function in JavaScript?",
+    "answers": [
+      "A loop that repeats a block of code",
+      "A way to store multiple values in a single variable",
+      "A set of instructions that perform a specific task",
+      "A way to create objects"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is an if statement in JavaScript?",
+    "answers": [
+      "A way to create a loop that repeats a block of code",
+      "A way to perform mathematical operations",
+      "A way to store multiple values in a single variable",
+      "A way to make decisions based on conditions"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
+    "answers": [
+      "To perform mathematical operations",
+      "To create loops",
+      "To check the data type of a value",
+      "To make decisions based on conditions"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is an object in JavaScript?",
+    "answers": [
+      "A way to store multiple values in a single variable",
+      "A function that performs a specific task",
+      "A loop that repeats a block of code",
+      "A collection of properties and methods"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is the purpose of the 'for' loop in JavaScript?",
+    "answers": [
+      "To store or hold values",
+      "To make decisions based on conditions",
+      "To perform a specific task repeatedly",
+      "To check the data type of a value"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "test": "644e2bfd3b867bc9b271711f",
+    "question": "What is the difference between call() and apply() methods in JavaScript?",
+    "answers": [
+      "call() and apply() methods are used interchangeably.",
+      "call() and apply() methods are used to set the this keyword within a function.",
+      " call() and apply() methods are used to pass arguments to a function.",
+      "call() and apply() methods are used to execute a function immediately."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is a closure in JavaScript?",
+    "answers": [
+      "A function that is passed as an argument to another function",
+      "A way to create private variables and methods in an object",
+      "A way to protect global variables from being modified",
+      "A way to associate a function with an object"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is the difference between 'undefined' and 'null' in JavaScript?",
+    "answers": [
+      "'Undefined' is a variable that has not been declared, while 'null' is a variable with a value of nothing",
+      "'Undefined' is a variable with a value of nothing, while 'null' is a variable that has not been declared",
+      "'Undefined' is a data type, while 'null' is a value",
+      "'Undefined' is a value, while 'null' is a keyword"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is a promise in JavaScript?",
+    "answers": [
+      "A way to handle errors in asynchronous code",
+      "A way to execute a block of code multiple times",
+      "A way to declare a variable that can be used in multiple functions",
+      "A way to represent a value that may not be available yet, but will be resolved in the future"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is the 'this' keyword in JavaScript?",
+    "answers": [
+      "A way to reference the current function",
+      "A way to reference the current object",
+      "A way to reference the current file",
+      "A way to reference the parent object"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is a higher-order function in JavaScript?",
+    "answers": [
+      "A function that takes another function as an argument or returns a function",
+      "A function that performs a specific task repeatedly",
+      "A function that is used to create objects",
+      "A function that is used to store multiple values"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is the difference between 'let' and 'var' in JavaScript?",
+    "answers": [
+      "'Let' creates a block-scoped variable, while 'var' creates a function-scoped variable",
+      "'Let' creates a function-scoped variable, while 'var' creates a block-scoped variable",
+      "There is no difference between 'let' and 'var'",
+      "'Let' is used for declaring constants, while 'var' is used for declaring variables"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is a generator function in JavaScript?",
+    "answers": [
+      "A function that returns a promise",
+      "A function that can bepaused and resumed, returning multiple values over time",
+      "A function that takes another function as an argument or returns a function",
+      "A function that is used to create objects with a specific prototype"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": " What is hoisting in JavaScript?",
+    "answers": [
+      "It is a process of raising the height of an element in the DOM.",
+      "It is a process of lifting a variable or function declaration to the top of its scope",
+      "It is a process of converting a synchronous function to an asynchronous one.",
+      " It is a process of optimizing the performance of a JavaScript application by reducing the size of its code."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is a callback function in JavaScript?",
+    "answers": [
+      "A function that returns a promise",
+      "A function that is called when an event occurs",
+      "A function that can be paused and resumed, returning multiple values over time",
+      "A function that takes another function as an argument or returns a function"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717120",
+    "question": "What is the difference between 'slice' and 'splice' in JavaScript?",
+    "answers": [
+      "'slice' is used to remove elements from an array, while 'splice' is used to add elements to an array",
+      "'slice' is used to copy elements from an array, while 'splice' is used to move elements within an array",
+      "'slice' and 'splice' are interchangeable",
+      "'slice' is used to extract a section of an array, while 'splice' is used to remove or replace a section of an array"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What does CSS stand for?",
+    "answers": [
+      "Cascading Style Sheets",
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style Sheets"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the purpose of the 'float' property in CSS?",
+    "answers": [
+      "To make an element transparent",
+      "To position an element relative to its parent",
+      "To remove an element from the document flow",
+      "To position an element to the left or right of its container"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the difference between 'margin' and 'padding' in CSS?",
+    "answers": [
+      "'margin' is the space inside an element, while 'padding' is the space outside an element",
+      "'margin' is the space outside an element, while 'padding' is the space inside an element",
+      "'margin' and 'padding' are the same thing",
+      "'margin' is used for horizontal spacing, while 'padding' is used for vertical spacing"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "Which CSS property is used to set the background color of an element?",
+    "answers": ["color", "background-color", "border-color", "text-color"],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the 'box model' in CSS?",
+    "answers": [
+      "A model for organizing HTML elements in a grid",
+      "A model for positioning elements on a web page",
+      "A model for specifying the shape of a CSS border",
+      "A model for calculating the size and position of an HTML element"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "Which CSS property is used to change the font of an element?",
+    "answers": ["font-family", "font-color", "font-style", "font-size"],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the difference between 'display: none' and 'visibility: hidden' in CSS?",
+    "answers": [
+      "'display: none' removes an element from the document flow, while 'visibility: hidden' hides an element but still takes up space",
+      "'visibility: hidden' removes an element from the document flow, while 'display: none' hides an element but still takes up space",
+      "'display: none' and 'visibility: hidden' are interchangeable",
+      "'visibility: hidden' is used to make an element transparent,while 'display: none' is used to change an element's visibility"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the 'box-sizing' property in CSS used for?",
+    "answers": [
+      "To set the height and width of an element",
+      "To specify the type of box model to use for an element",
+      "To set the border thickness of an element",
+      "To specify the behavior of an element's padding and border in relation to its width and height"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "What is the difference between 'position: absolute' and 'position: relative' in CSS?",
+    "answers": [
+      "'position: absolute' positions an element relative to the nearest positioned ancestor, while 'position: relative' positions an element relative to its normal position",
+      "'position: relative' positions an element relative to the nearest positioned ancestor, while 'position: absolute' positions an element relative to its normal position",
+      "'position: absolute' and 'position: relative' are interchangeable",
+      "'position: relative' is used to make an element transparent, while 'position: absolute' is used to change an element's visibility"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717121",
+    "question": "Which CSS property is used to change the size of an element's text?",
+    "answers": ["font-family", "font-size", "font-weight", "font-style"],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "What is TypeScript?",
+    "answers": [
+      "A superset of JavaScript that adds optional static typing",
+      "A completely different programming language that is based on JavaScript",
+      "A JavaScript framework for building web applications",
+      "A tool for writing CSS with JavaScript syntax"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "Which of the following statements about TypeScript is true?",
+    "answers": [
+      "TypeScript is compiled to JavaScript at runtime",
+      "TypeScript is compiled to JavaScript at build time",
+      "TypeScript is interpreted by the browser at runtime",
+      "TypeScript is a subset of JavaScript"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "What is the syntax for defining a variable with a specific type in TypeScript?",
+    "answers": [
+      "let myVar: string = 'Hello'",
+      "let myVar = 'Hello'",
+      "var myVar: string = 'Hello'",
+      "var myVar = 'Hello'"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "What is the syntax for defining a function with a specific return type in TypeScript?",
+    "answers": [
+      "function myFunction(): void { }",
+      "function myFunction(): any { }",
+      "function myFunction(): number { }",
+      "function myFunction(): string { }"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "Which of the following is NOT a benefit of using TypeScript?",
+    "answers": [
+      "Improved code maintainability",
+      "Reduced risk of runtime errors",
+      "Better tooling support for large projects",
+      "Faster runtime performance than JavaScript"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "What is the syntax for defining an interface in TypeScript?",
+    "answers": [
+      "interface MyInterface { }",
+      "class MyInterface { }",
+      "interface MyInterface = { }",
+      "interface MyInterface : { }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "test": "644e2bfd3b867bc9b2717124",
+    "question": "What is the difference between an interface and a class in TypeScript?",
+    "answers": [
+      "An interface defines a set of properties and methods that a class must implement, while a class is a blueprint for creating objects",
+      "An interface is a blueprint for creating objects, while a class defines a set of properties and methods that an object must have",
+      "Interfaces and classes are interchangeable in TypeScript",
+      "Interfaces and classes serve the same purpose in TypeScript"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is a union type in TypeScript?",
+    "answers": [
+      "A type that allows multiple values to be assigned to it.",
+      "A type that is a combination of multiple types.",
+      "A type that can be either null or undefined.",
+      "A type that is the opposite of an intersection type."
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717124"
+  },
+  {
+    "question": "What is the keyof keyword in TypeScript?",
+    "answers": [
+      "A keyword used to create new types from existing types.",
+      "A keyword used to specify the type of an object's keys.",
+      "A keyword used to access an object's properties using their names.",
+      "A keyword used to define the return type of a function."
+    ],
+    "correctAnswer": 2,
+    "test": "644e2bfd3b867bc9b2717124"
+  },
+  {
+    "question": "What is an abstract class in TypeScript?",
+    "answers": [
+      "A class that cannot be instantiated, but can only be extended.",
+      "A class that can be instantiated, but cannot be extended.",
+      "A class that has no implementation, but only method signatures.",
+      "A class that can be used to define a set of static methods."
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717124"
+  },
+  {
+    "question": "What is MongoDB?",
+    "answers": [
+      "A SQL database",
+      "A NoSQL database",
+      "A graph database",
+      "A key-value database"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is the primary language used to interact with MongoDB?",
+    "answers": ["SQL", "Python", "JavaScript", "None of the above"],
+    "correctAnswer": 2,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is a document in MongoDB?",
+    "answers": [
+      "A record in a SQL database",
+      "A row in a table",
+      "A record in a NoSQL database",
+      "A JSON-like data structure"
+    ],
+    "correctAnswer": 3,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is the default port number for MongoDB?",
+    "answers": ["27017", "3306", "5432", "8080"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "Which of the following is a valid MongoDB update operator?",
+    "answers": ["$add", "$set", "$modify", "$change"],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is the name of the MongoDB aggregation framework?",
+    "answers": ["MapReduce", "ReduceMap", "AggMap", "None of the above"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is sharding in MongoDB?",
+    "answers": [
+      "A way to divide a database into smaller parts",
+      "A way to merge two databases",
+      "A way to create a backup of a database",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is a replica set in MongoDB?",
+    "answers": [
+      "A group of MongoDB instances that host the same data set",
+      "A backup of a database",
+      "A way to create a new database",
+      "None of the above"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is the name of the MongoDB GUI client?",
+    "answers": ["MongoDB Shell", "MongoDB Compass", "Robo 3T", "Studio 3T"],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is the difference between find() and findOne() in MongoDB?",
+    "answers": [
+      "find() returns all documents that match a query, while findOne() returns only the first matching document",
+      "find() returns only the first matching document, while findOne() returns all documents that match a query",
+      "find() and findOne() are identical in function and can be used interchangeably",
+      "find() and findOne() are not valid MongoDB query methods"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717125"
+  },
+  {
+    "question": "What is Express.js?",
+    "answers": [
+      "A frontend framework",
+      "A backend framework",
+      "A full-stack framework",
+      "A database framework"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is middleware in Express.js?",
+    "answers": [
+      "A type of server",
+      "A function that can access the request and response objects",
+      "A type of database",
+      "A type of browser extension"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is routing in Express.js?",
+    "answers": [
+      "The process of directing traffic on a network",
+      "The process of handling requests based on the URL and HTTP method",
+      "The process of creating a new application in Express.js",
+      "The process of writing middleware functions"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the purpose of the 'next' function in middleware?",
+    "answers": [
+      "To call the next middleware function in the stack",
+      "To return a response to the client",
+      "To start the server",
+      "To send data to a database"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the purpose of the 'app' object in Express.js?",
+    "answers": [
+      "To define routes and handle requests",
+      "To send responses to the client",
+      "To start the server",
+      "To define middleware functions"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the purpose of the 'res' object in Express.js?",
+    "answers": [
+      "To represent the incoming request from the client",
+      "To represent the server",
+      "To represent the response to be sent back to the client",
+      "To represent the database"
+    ],
+    "correctAnswer": 2,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the purpose of the 'req' object in Express.js?",
+    "answers": [
+      "To represent the incoming request from the client",
+      "To represent the server",
+      "To represent the response to be sent back to the client",
+      "To represent the database"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the purpose of the 'use' method in Express.js?",
+    "answers": [
+      "To define middleware functions",
+      "To define routes and handle requests",
+      "To send responses to the client",
+      "To start the server"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What is the difference between app.use() and app.METHOD() in Express.js?",
+    "answers": [
+      "app.use() is for middleware and app.METHOD() is for routing",
+      "app.use() is for routing and app.METHOD() is for middleware",
+      "There is no difference between them",
+      "app.use() is for handling errors and app.METHOD() is for handling requests"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717126"
+  },
+  {
+    "question": "What does Sass stand for?",
+    "answers": [
+      "Super Awesome Style Sheets",
+      "Syntactically Awesome Stylesheets",
+      "Sassy Animation Stylesheets",
+      "Static Advanced Style Sheets"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "Which of the following is not a Sass data type?",
+    "answers": ["Number", "String", "List", "Object"],
+    "correctAnswer": 3,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the Sass syntax for nesting?",
+    "answers": ["&", ">", "+", "-"],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the purpose of the @extend directive in Sass?",
+    "answers": [
+      "To import mixins",
+      "To extend a class",
+      "To import variables",
+      "To create a function"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What does the $ symbol represent in Sass?",
+    "answers": ["A variable", "A function", "A mixin", "A selector"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "Which of the following is a valid way to declare a Sass mixin?",
+    "answers": [
+      "@mixin name {}",
+      "mixin name {}",
+      "name @mixin {}",
+      "name {} @mixin"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the purpose of the !default flag in Sass?",
+    "answers": [
+      "To define a default value for a variable",
+      "To apply a default style to an element",
+      "To prevent a variable from being overridden",
+      "To apply a default mixin to an element"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the Sass syntax for importing another Sass file?",
+    "answers": [
+      "@import 'filename';",
+      "import 'filename';",
+      "filename @import;",
+      "filename;"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the purpose of the !important flag in Sass?",
+    "answers": [
+      "To override other styles",
+      "To define a variable as important",
+      "To import a mixin as important",
+      "To define a function as important"
+    ],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What is the Sass syntax for declaring a placeholder selector?",
+    "answers": ["%selector {}", "@selector {}", "$selector {}", "&selector {}"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717123"
+  },
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      "Hyperlinks and Text Markup Language",
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "None of the above"
+    ],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define an unordered list?",
+    "answers": ["<li>", "<ol>", "<ul>", "<em>"],
+    "correctAnswer": 2,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a table row?",
+    "answers": ["<tr>", "<td>", "<th>", "<table>"],
+    "correctAnswer": 1,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "answers": ["alt", "title", "src", "href"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a hyperlink?",
+    "answers": ["<a>", "<b>", "<p>", "<img>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a header for a document or section?",
+    "answers": ["<h1>", "<header>", "<head>", "<h2>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define an input field where the user can enter data?",
+    "answers": ["<input>", "<form>", "<button>", "<label>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a paragraph?",
+    "answers": ["<p>", "<pre>", "<code>", "<span>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a footer for a document or section?",
+    "answers": ["<footer>", "<h1>", "<nav>", "<div>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  },
+  {
+    "question": "Which HTML tag is used to define a line break?",
+    "answers": ["<br>", "<hr>", "<p>", "<div>"],
+    "correctAnswer": 0,
+    "test": "644e2bfd3b867bc9b2717122"
+  }
+]
